@@ -1,0 +1,16 @@
+﻿Linked List
+
+Dizilere nazaran esnektir.
+ Boyutu arttırılabilir, yani esnektir.
+
+
+Her bir elemana node denir.
+Nodeların içinde her türlü tip tutulabilir.
+Her bir node kendinden sonra gelecek elemanı bilir.
+Bu sayede araya node eklemek ve çıkarmak çok kolaylaşır.
+Dezavantajı, dizilere göre yavaştır. Dizilere index üzerinden erişim hızı daha hızlıdır.
+
+Tek yönlü linked list
+	kendinden sonra gelen nodeları gösteren nesne referanslarına sahip nodelardan oluşur.
+
+Çift yönlü linked list
