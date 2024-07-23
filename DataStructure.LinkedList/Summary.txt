@@ -1,14 +1,19 @@
 ﻿Linked List
 
 Dizilere nazaran esnektir.
- Boyutu arttırılabilir, yani esnektir.
-
-
+Boyutu arttırılabilir, yani esnektir.
 Her bir elemana node denir.
 Nodeların içinde her türlü tip tutulabilir.
+Linked Liste'te elemanlar node sınıfı oluşturularak onun üzerinden eklenir.
+Node sınıfı data ve kendinden sonra gelecek nodeu gösteren bir rerefans tutar. next olarak isimlendirilir.
 Her bir node kendinden sonra gelecek elemanı bilir.
 Bu sayede araya node eklemek ve çıkarmak çok kolaylaşır.
+Head nesne refeansı node titpinde nesne referansıdır ve ilk node'u gösterir
+Tail nesne referansı node titpinde nesne referansıdır ve son node'u gösterir. ve null'ı işaret eder.
 Dezavantajı, dizilere göre yavaştır. Dizilere index üzerinden erişim hızı daha hızlıdır.
+Aradan bir yerden eleman silmek stediğimizde index üzerinden silinir.
+Tüm nodeları gezmeye traverse etmek denir.
+
 
 Tek yönlü linked list
 	kendinden sonra gelen nodeları gösteren nesne referanslarına sahip nodelardan oluşur.
