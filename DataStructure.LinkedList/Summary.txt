@@ -19,3 +19,4 @@ Tek yönlü linked list
 	kendinden sonra gelen nodeları gösteren nesne referanslarına sahip nodelardan oluşur.
 
 Çift yönlü linked list
+	
