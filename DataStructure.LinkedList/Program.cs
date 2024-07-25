@@ -1,6 +1,5 @@
 ﻿using DataStructure.LinkedList.Data;
 using System.Net.WebSockets;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DataStructure.LinkedList
 {
