@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace DataStructure.Stacks.Data
@@ -85,7 +86,14 @@ namespace DataStructure.Stacks.Data
         public bool IsEmpty()
         {
             return _count == 0; 
-        }   
-    
+        }
+
+        public int Peek()
+        {
+            if (_count > 0)
+                return _top.Data;
+            else
+                return -1;
+        }
     }
 }
