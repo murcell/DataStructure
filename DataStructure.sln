@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure.DoublyLinkedL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.Stacks", "DataStructure.Stack\DataStructure.Stacks.csproj", "{FA76C455-28F7-458F-8FD1-F7493C38A206}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.Queues", "DataStructure.Queues\DataStructure.Queues.csproj", "{9EEAC603-BA87-48E0-8671-4551BC95A73E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FA76C455-28F7-458F-8FD1-F7493C38A206}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA76C455-28F7-458F-8FD1-F7493C38A206}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA76C455-28F7-458F-8FD1-F7493C38A206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEAC603-BA87-48E0-8671-4551BC95A73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEAC603-BA87-48E0-8671-4551BC95A73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEAC603-BA87-48E0-8671-4551BC95A73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEAC603-BA87-48E0-8671-4551BC95A73E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
