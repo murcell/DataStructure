@@ -51,11 +51,17 @@
 
             };
             // did not complete
+
+            int a, b;
+
+            Test(out a, out b);
+
             SortStringArray(arr);
             Console.ReadLine();
 
         }
 
+        static void Test(out int x, out int y) { x = 42; y = 123; Console.WriteLine(x == y); }
 
         public static int BinarySearch(int[] array, int target)
         {
