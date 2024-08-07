@@ -1,7 +1,16 @@
 ﻿namespace DataStructure.ObjectReferences
 {
+
+    
+
     internal class Program
     {
+        delegate void MgTestDelegate();
+        static MgTestDelegate mgTestDelegate;
+
+
+        delegate int MgTestDelegateGivenAParameter(int num1);
+        static MgTestDelegateGivenAParameter testDelegateGivenAParameter;
         static void Main(string[] args)
         {
             #region Referanse Types
@@ -52,15 +61,38 @@
             };
             // did not complete
 
-            int a, b;
+            //int a, b;
 
-            Test(out a, out b);
+            //Test(out a, out b);
 
-            SortStringArray(arr);
+            //SortStringArray(arr);
+
+            //mgTestDelegate = new MgTestDelegate(MgTestMethod);
+            //MgTestDelegate mgTestDelegate = new MgTestDelegate(() =>
+            //{
+            //    Console.WriteLine("bu da anonim");
+            //});
+            //mgTestDelegate += MgTestMethod;
+            //mgTestDelegate.Invoke();
+
+
+            testDelegateGivenAParameter = new MgTestDelegateGivenAParameter((int num1) =>
+            {
+                return num1;
+            });
+
+
+            var result = testDelegateGivenAParameter.Invoke(45);
+
+            Console.WriteLine(result);
             Console.ReadLine();
 
         }
 
+        static void MgTestMethod() 
+        {
+            Console.WriteLine("Dur gardaş test ediyom");
+        }
         static void Test(out int x, out int y) { x = 42; y = 123; Console.WriteLine(x == y); }
 
         public static int BinarySearch(int[] array, int target)

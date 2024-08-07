@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure.Stacks", "Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure.Queues", "DataStructure.Queues\DataStructure.Queues.csproj", "{9EEAC603-BA87-48E0-8671-4551BC95A73E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.BSTTrees", "DataStructure.BSTTrees\DataStructure.BSTTrees.csproj", "{94346B9B-00D6-4719-A051-CE01958CF054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure.BSTTrees", "DataStructure.BSTTrees\DataStructure.BSTTrees.csproj", "{94346B9B-00D6-4719-A051-CE01958CF054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.Graphs", "DataStructure.Graphs\DataStructure.Graphs.csproj", "{48FECC7F-4FEE-45F9-AE57-592295FDF921}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure.Graphs", "DataStructure.Graphs\DataStructure.Graphs.csproj", "{48FECC7F-4FEE-45F9-AE57-592295FDF921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.FluentBuilderDesignPattern", "DataStructure.FluentBuilderDesignPattern\DataStructure.FluentBuilderDesignPattern.csproj", "{98FD5697-BBB2-4B61-AD79-6CA0CD40B967}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{48FECC7F-4FEE-45F9-AE57-592295FDF921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FECC7F-4FEE-45F9-AE57-592295FDF921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FECC7F-4FEE-45F9-AE57-592295FDF921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FD5697-BBB2-4B61-AD79-6CA0CD40B967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FD5697-BBB2-4B61-AD79-6CA0CD40B967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FD5697-BBB2-4B61-AD79-6CA0CD40B967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FD5697-BBB2-4B61-AD79-6CA0CD40B967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
